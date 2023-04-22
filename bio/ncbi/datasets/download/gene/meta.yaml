@@ -1,0 +1,6 @@
+name: datasets download gene
+description: >
+  Download a gene data package.  Gene data packages include gene, transcript and protein sequences and one or more 
+  data reports.
+author:
+  - Connor McEntee

@@ -1,0 +1,7 @@
+channel_priority: strict
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - ncbi-datasets-cli ==14.24.0
+  - unzip ==6.0
