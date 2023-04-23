@@ -1,0 +1,9 @@
+name: macsyfinder
+description: >
+  Run macsyfinder on a replicon
+author:
+  - Connor McEntee
+input:
+  - FASTA protein sequences
+output:
+  - TSV
