@@ -1,0 +1,9 @@
+name: jq
+description: >
+  commandline JSON processor
+author:
+  - Connor McEntee
+input:
+  - JSON
+output:
+  - JSON

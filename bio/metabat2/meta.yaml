@@ -1,0 +1,9 @@
+name: matabat2
+description: >
+  Metagenome Binning based on Abundance and Tetranucleotide frequency
+author:
+  - Connor McEntee
+input:
+  - FASTA file
+output:
+  - FASTA files
