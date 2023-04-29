@@ -1,0 +1,10 @@
+name: blast blastp
+description: >
+  ``Blastp`` performs a sequence similarity search of amino acid query sequences against a protein database.
+  For more information please see `BLAST documentation <https://www.ncbi.nlm.nih.gov/books/NBK279690/>`_.
+author:
+  - Connor McEntee
+input:
+  - FASTA file
+output:
+  - depending on the formatting option, different output files can be generated (see tables above)

@@ -1,0 +1,7 @@
+channel_priority: strict
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - seqkit =2.3.1
+

@@ -1,0 +1,10 @@
+name: seqkit subseq
+description: >
+  get subsequences by region/gtf/bed, including flanking sequences.
+author:
+  - Connor McEntee
+input:
+  - FASTA
+  - GTF
+output:
+  - GFF
