@@ -1,0 +1,10 @@
+name: bedtools shift
+description: >
+  Shift each feature by requested number of base pairs.
+author:
+  - Connor McEntee
+input:
+  - GFF/BED/VCF
+  - TXT genome coordinates
+output:
+  - GFF/BED/VCF

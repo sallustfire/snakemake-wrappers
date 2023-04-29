@@ -1,0 +1,9 @@
+name: hmmfetch
+description: >
+  retrieve an HMM from an HMM database
+author:
+  - Connor McEntee
+input:
+  - HHM database
+output:
+  - HMM profile

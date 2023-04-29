@@ -1,0 +1,6 @@
+channel_priority: strict
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bedtools =2.30.0

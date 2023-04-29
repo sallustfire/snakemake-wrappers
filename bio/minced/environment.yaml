@@ -1,0 +1,6 @@
+channel_priority: strict
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - minced ==0.4.2

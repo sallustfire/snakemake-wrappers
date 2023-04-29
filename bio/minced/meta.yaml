@@ -1,0 +1,9 @@
+name: minced
+description: >
+  Test
+author:
+  - Connor McEntee
+input:
+  - FASTA file
+output:
+  - GFF

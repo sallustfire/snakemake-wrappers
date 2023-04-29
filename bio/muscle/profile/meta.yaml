@@ -1,0 +1,8 @@
+name: muscle
+description: build multiple sequence alignments using MUSCLE. Documentation found at https://www.drive5.com/muscle/manual/index.html
+authors:
+  - Connor McEntee
+input:
+  - FASTA files
+output:
+  - Alignment file, with FASTA as default file format
