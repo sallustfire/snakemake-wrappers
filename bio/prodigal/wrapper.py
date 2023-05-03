@@ -9,7 +9,7 @@ procedure = snakemake.params.get("procedure", "single")
 # all other params should be entered in "extra" param
 extra = snakemake.params.get("extra", "")
 
-out = snakemake.output.get("annotation")
+out = snakemake.output.get("gff")
 out_faa = snakemake.output.get("faa")
 out_fna = snakemake.output.get("fna")
 
@@ -32,7 +32,7 @@ shell(
     "prodigal"
     " {extra}" 
     " -p {procedure}"
-    " -i {snakemake.input}"
+    " -i {snakemake.input.fna}"
     " {faa_flag}"
     " {fna_flag}"
     " -f {out_format}"
